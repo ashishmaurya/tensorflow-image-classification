@@ -8,3 +8,5 @@ Python Keras Model to build and train image classification for bike and car
 `data` folder is arranged in such was so that `keras.preprocessing.image_dataset_from_directory` function can be used  for loading the data in dataset
 
 ##### Note : I had installed the `tensorflow-cpu` instead of `tensflow`
+
+** Image resizing is used as I was not able to proocess this model(1920x1080 images) on my VM
